@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand';
+  font-size: 22px;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  background-image: url('PlayBackground.png'); /* Replace 'your-image-file.png' with the actual file path or URL of your downloaded slide image */
+  background-size: cover; /* Adjust background size as needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: This makes the background fixed when scrolling */
+}
+
+#gamenavigation { 
+  position: relative; 
+  position: absolute;
+  height: 50px;
+  width: 700px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.playbutton {
+  position: relative;
+  height: 100px;
+  width: 120px;
+  border-radius: 120px;
+  background-color: green;
+  border-style: none;
+  font-weight: bold;
+  top: 190px;
+  /* adjust this value to change button y position*/
+}
+
+.navigationbutton {
+  height: 100px;
+  width: 120px;
+  border-radius: 120px;
+  background-color: green;
+  border-style: none;
+  font-weight: bold;
+  
+}
+
+
